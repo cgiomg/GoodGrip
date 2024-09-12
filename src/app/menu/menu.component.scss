@@ -1,31 +1,36 @@
 .bienvenida{
     width: 100vw;
     height: 100vh;
-    background: #1375B2; 
+    background: #ffffff; 
 }
 .boton{
-    position: relative;
-    width: 50%;
-    height: 10vh;
     top: 10%;
-    background: #43689c; 
-    border-radius: 8px;
-    display: block;
+    position: relative;
+    width:  45%;
+    height: 35%;
     margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    color: #ffffff;
+    margin-left: 2%;
+    left: 1.5%;
+    font-size: 155%;
+    color: black;
+    
+
     }
 .head{
-    height: 15vh;
-    width: 100vw;
-    padding-top: .2%;
-    background: #c1daeb;
-    font-size: 45px; 
-}
+        --background: rgba(18, 18, 75, 0.842);
+        padding-top: 2%;
+    }
+.titulo{
+    color:white;
+    font-size: 200%;
+    }
 .imagen{
     background: #c1daeb;
     height: 6vh;
     width: 7vw;
     margin-left: auto;
+}
+
+ion-content{
+    --ion-background-color: rgb(231, 230, 240);
 }

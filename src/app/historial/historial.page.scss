@@ -3,25 +3,54 @@
     height: 100vh;
     background: #1375B2; 
 }
+.calendario{height: 50vh;}
 .boton{
-    position: relative;
+    position: absolute;
+    width: 60%; 
+    top:   60%;
+    right: 20%;
+    color: #ffffff;
+    }
+.boton1{
+    /*position: relative;
     width: 60%;
     height: 5vh;
-    top: 10%;
-    background: #43689c; 
+    top: 10%;*/
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+    background: #c1daeb; 
     color: #ffffff;
     }
 .head{
-    height: 15vh;
-    width: 100vw;
-    padding-top: 2%;
-    background: #c1daeb;
-}
+        --background: rgba(18, 18, 75, 0.842);
+        height: 10vh;
+        width: 100vw;
+        padding-top: 2%;
+    }
+.titulo{
+        font-size: 30px;
+        --background:#ffffff;
+        --color:#ffffff;
+        text-align: center;
+    }
 .imagen{
     background: #c1daeb;
     height: 6vh;
     width: 7vw;
     margin-left: auto;
+}
+
+.ListaDias{
+    position: absolute;
+    text-align: center;
+    top:    58%;
+    left:   0%;
+    height: 35%;
+}
+
+.Borde{
+    border: black 3px solid;
 }

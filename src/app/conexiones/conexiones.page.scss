@@ -1,0 +1,32 @@
+.bienvenida{
+    width: 100vw;
+    height: 100vh;
+    background: #1375B2; 
+}
+.boton{
+    position: relative;
+    width: 60%;
+    height: 5vh;
+    top: 10%;
+    background: #43689c; 
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    }
+.head{
+    --background: rgba(18, 18, 75, 0.842);
+        height: 10vh;
+        width: 100vw;
+        padding-top: 2%;
+    }
+.titulo{
+        font-size: 30px;
+        --background:#ffffff;
+        --color:#ffffff;
+    }
+.imagen{
+    background: #c1daeb;
+    height: 6vh;
+    width: 7vw;
+    margin-left: auto;
+}
